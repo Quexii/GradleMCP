@@ -1,0 +1,30 @@
+[22:16:17] [Client thread/INFO]: Setting user: Player207
+[22:16:17] [Client thread/INFO]: (Session ID is token:0:Player207)
+[22:16:17] [Client thread/INFO]: LWJGL Version: 2.9.4
+[22:16:18] [Client thread/INFO]: Reloading ResourceManager: Default
+[22:16:18] [Client thread/ERROR]: Couldn't initialize twitch stream
+[22:16:18] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[22:16:18] [Thread-6/INFO]: Initializing LWJGL OpenAL
+[22:16:18] [Thread-6/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[22:16:18] [Thread-6/INFO]: OpenAL initialized.
+[22:16:18] [Sound Library Loader/INFO]: Sound engine started
+[22:16:19] [Client thread/INFO]: Created: 512x512 textures-atlas
+[22:16:19] [Client thread/ERROR]: Realms module missing
+java.lang.ClassNotFoundException: com.mojang.realmsclient.gui.screens.RealmsNotificationsScreen
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_361]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_361]
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:355) ~[?:1.8.0_361]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_361]
+	at java.lang.Class.forName0(Native Method) ~[?:1.8.0_361]
+	at java.lang.Class.forName(Class.java:264) ~[?:1.8.0_361]
+	at net.minecraft.realms.RealmsBridge.getNotificationScreen(RealmsBridge.java:38) [main/:?]
+	at net.minecraft.client.gui.GuiMainMenu.initGui(GuiMainMenu.java:246) [main/:?]
+	at net.minecraft.client.gui.GuiScreen.setWorldAndResolution(GuiScreen.java:556) [main/:?]
+	at net.minecraft.client.Minecraft.displayGuiScreen(Minecraft.java:1016) [main/:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:577) [main/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:406) [main/:?]
+	at net.minecraft.client.main.Main.main(Main.java:113) [main/:?]
+	at Start.main(Start.java:13) [test/:?]
+[22:17:16] [Client thread/INFO]: Stopping!
+[22:17:16] [Client thread/INFO]: SoundSystem shutting down...
+[22:17:16] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
